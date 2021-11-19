@@ -5,7 +5,7 @@
 #include <opencv2/core.hpp>
 
 
-struct DataFrame { // represents the available sensor information at the same time instance
+struct DataFrame { 
     
     cv::Mat cameraImg; // camera image
     
